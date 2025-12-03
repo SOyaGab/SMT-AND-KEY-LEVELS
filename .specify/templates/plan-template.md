@@ -31,7 +31,21 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+For this project, every plan MUST explicitly verify:
+
+- **Time & data alignment**: All daily/weekly/monthly/quarterly and 4H partitions are computed in
+  New York time using Bybit data, and any DST handling is understood.
+- **Architecture constraints**: The design remains browser-only and zero-cost (HTML + Tailwind CSS
+  + vanilla JS or React; no custom backend or paid infra), or any deviation is clearly justified as
+  a constitutional violation requiring governance review.
+- **Explicit market logic**: Key-level and SMT rules used in this feature are written in clear,
+  testable form (inputs, formulas, trigger conditions) and any `NEEDS CLARIFICATION` items are
+  called out.
+- **Trader-centric UX**: Planned UI surfaces (scanner table, SMT panel, chart overlays, alerts)
+  keep signals legible and do not bury critical information behind optional visuals.
+- **Observability & performance**: There is at least an initial plan for how this work will meet
+  latency goals (e.g., <300 ms price-to-UI, <1 s SMT detection) and how it will be debugged in
+  practice (logs, debug views, or similar).
 
 ## Project Structure
 

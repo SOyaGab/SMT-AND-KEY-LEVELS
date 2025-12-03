@@ -105,6 +105,9 @@
 <!--
   ACTION REQUIRED: Define measurable success criteria.
   These must be technology-agnostic and measurable.
+  For this project, ensure criteria reflect the repository constitution
+  (real-time behavior, NY time alignment, browser-only constraints,
+  SMT/key-level accuracy, and UX clarity).
 -->
 
 ### Measurable Outcomes

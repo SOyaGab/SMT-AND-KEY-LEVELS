@@ -156,6 +156,8 @@ Examples of foundational tasks (adjust based on your project):
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
 - [ ] TXXX Security hardening
 - [ ] TXXX Run quickstart.md validation
+ - [ ] TXXX [P] Verify real-time latency and WebSocket reliability against project targets
+ - [ ] TXXX [P] Add or validate logging/observability for key-level and SMT engines
 
 ---
 
